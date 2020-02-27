@@ -1,0 +1,420 @@
+@-webkit-keyframes mj{
+	0%{margin-left:-100%;}
+	50%{margin-left:100%;}
+	100%{margin-left:-100%;}
+}
+@-webkit-keyframes mj1{
+	0%{background-color:#333;}
+	50%{background-color:#febb2c;}
+	100%{background-color:#333;}
+}
+@-webkit-keyframes mj2{
+	0%{background-color:#febb2c;}
+	50%{background-color:#333;color:#febb2c;}
+	100%{background-color:#febb2c;}
+}
+@-webkit-keyframes mj3{
+	0%{background-color:#febb2c;color:#333;}
+	50%{background-color:#333;color:#FFF;}
+	100%{background-color:#febb2c;color:#333;}
+}
+@-webkit-keyframes mj4{
+	0%{background-color:#333;color:#FFF;}
+	50%{background-color:#febb2c;color:#333;}
+	100%{background-color:#333;color:#FFF;}
+}
+@-webkit-keyframes mj5{
+	0%{color:#febb2c;}
+	50%{color:#000;}
+	100%{color:#febb2c;}
+}
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: 'Dosis', sans-serif;
+}
+a{
+	text-decoration:none;
+}
+li{
+	list-style-type:none;
+}
+.container{
+	width:100%;
+	height:500px;
+	background-color:#6FC;
+}
+.section1{
+	width:100%;
+	
+}
+.navHeader{
+	width:100%;
+	background-color:transparent;
+	display:inline-block;
+}
+.headerLogo a{
+	float:left;
+	color:#febb2c;
+	text-transform:uppercase;
+	margin:10px 0 10px 10px;
+	
+}
+.navbar{
+	margin-left:40%;
+	float:right;
+	font-size:12px;
+	
+}
+.navLinks>li{
+	float:left;
+	margin-right:40px;
+	
+	
+}
+.navLinks>li>a{
+	display:inline-block;
+	
+	padding:17px 0 17px 0;
+}
+.navLinks li a{
+	color:#febb2c;
+}
+.commonLink li a{
+	color:#fff;	
+	
+}
+
+.commonLink li{
+	clear:both;
+	
+	
+	padding:5px 0 5px 15px;
+	
+	border-bottom:1px solid #333;
+	
+}
+.commonLink{
+	width:100%;
+	position:absolute;
+	display:none;
+}
+
+.navLinks li:hover ul{
+	display:block;
+}
+.li1:hover .div1{
+	display:block;
+}
+.li2:hover .div2{
+	display:block;
+}
+.navLinks:last-child{
+	margin-right:30px;
+}
+.demoPages li:last-child{
+	border-bottom:none;
+}
+.moreTemp li:last-child{
+	border-bottom:none;
+}
+.div1{
+	margin-top:0;
+	width:200px;
+	padding:0;
+	height:235px;
+	background-color:#666;
+	display:none;
+	position:absolute;
+	right:60px;
+}
+.div2{
+	margin-top:0;
+	width:150px;
+	padding:0;
+	height:78px;
+	background-color:#666;
+	display:none;
+	position:absolute;
+	right:10px;
+}
+.demoPages:first-child{
+	border-top:2px solid #febb2c;
+}
+.moreTemp:first-child{
+	border-top:2px solid #febb2c;
+}
+.section1{
+	background-image:url(../images/background2.jpg);
+	background-size:100% 100%;
+	margin-bottom:55px;
+}
+.subSection{
+	width:900px;
+	margin:0 auto;
+	
+	padding:300px 0;
+}
+.hello{
+	font-size:34px;
+	color:#FFF;
+	font-weight:bolder;
+	text-transform:uppercase;
+	margin-bottom:10px;
+}
+.desc{
+	font-size:36px;
+	color:#FFF;
+	font-weight:500
+}
+.span1{
+	color:#febb2c;
+	font-weight:700;
+}
+.work{
+	margin:20px 0;
+	color:#FFF;
+	text-transform:uppercase;
+	font-weight:600;
+}
+.aboutButton{
+	padding:5px 15px;
+	background-color:#febb2c;
+	display:inline-block;
+	color:#FFF;
+	font-size:14px;
+	font-weight:600;
+}
+.section2{
+	width:900px;
+	margin:0 auto;
+	
+	overflow:auto;
+}
+.heading1{
+	font-size:20px;
+	text-align:center;
+	text-transform:uppercase;
+}
+.subHeading1{
+	margin-top:15px;
+	text-align:center;
+	font-size:16px;
+}
+.commonBox{
+	margin:40px auto 0 auto;
+	float:left;
+	
+	width:24%;
+	
+}
+.box4{
+	float:right;
+}
+.box2, .box3{
+	margin-left:12px;
+}
+.icon1{
+	margin-bottom:10px;
+	font-size:36px;
+}
+.boxPara{
+	margin-top:5px;
+}
+.section3{
+	margin-top:100px;
+	width:100%;
+	background-color:#999;
+	overflow:auto;
+	margin-bottom:70px;
+}
+.boxB, .boxD{
+	background-color:#CCC;
+}
+.commonBox1{
+	width:25%;
+	float:left;
+	padding:70px 0;
+	text-align:center;
+}
+.icon2{
+	font-size:36px;
+}
+.section4{
+	width:900px;
+	
+	margin:0 auto;
+	overflow:auto;
+	text-align:center;
+}
+.commonBoxA{
+	
+	width:20%;
+	position:relative;
+	float:left;
+	margin-top:60px;
+}
+.boxA4{
+	float:right;
+}
+.commonBoxB{
+	float:left;
+	width:6.33%;
+	margin-top:60px;
+	
+}
+.arrow{
+	margin-top:30px;
+	animation:mj 2s infinite;
+}
+.icon3{
+	background-color:#333;
+	color:#FFF;
+	padding:30px;
+	font-size:40px;
+	border-radius:50%;
+	animation:mj1 2s infinite;
+}
+.icon31{
+	padding-left:37px;
+}
+.icon32{
+	padding-left:35px;
+}
+.commonBoxA:after{
+	content:"1";
+	background-color:#febb2c;
+	border-radius:50%;
+	padding:5px 13px;
+	position:absolute;
+	bottom:240px;
+	left:105px;
+	color:#333;
+	animation:mj2 2s infinite;
+}
+.boxA1:after{
+	bottom:280px;
+}
+.boxA2:after{
+	content:"2";
+	padding:5px 11px;
+}
+.boxA3:after{
+	content:"3";
+	padding:5px 11px;
+	bottom:260px;
+}
+.boxA4:after{
+	content:"4";
+	padding:5px 12px;
+	bottom:220px;
+}
+.iconHeading{
+	margin-top:20px;
+	text-transform:uppercase;
+}
+.learnMore{
+	text-decoration:none;
+	color:#febb2c;
+}
+.section5{
+	width:100%;
+	background-color:#CCC;
+	overflow:auto;
+	margin-top:100px;
+}
+.content, .photo{
+	float:left;
+	width:50%;
+	
+}
+.pic{
+	width:100%;
+	
+}
+.content{
+	padding:100px 0 20px 40px;
+}
+.contentHeading{
+	font-size:20px;
+	text-transform:uppercase;
+	margin-bottom:7px;
+}
+.contentSubHeading{
+	font-size:16px;
+	text-transform:uppercase;
+	margin-bottom:7px;
+}
+.contentData{
+	font-size:14px;
+}
+.tick{
+	color:#febb2c;
+}
+.data1{
+	margin:5px 0;
+}
+footer{
+	background-color:#333;
+	padding:30px 250px 60px 200px;
+}
+.footerText{
+	color:#FFF;
+	float:left;
+}
+#site{
+	text-decoration:none;
+	color:#febb2c;
+}
+.data12{
+	margin-bottom:20px;
+}
+.icon4{
+	padding:7px;
+	border-radius:50%;
+	background-color:#333;
+	color:#FFF;
+	margin-right:5px;
+	font-size:12px;
+}
+.icon41{
+	padding:7px 10px;
+}
+.icon51{
+	
+	float:right;
+	border:2px solid #FFF;
+}
+.icon42{
+	padding:7px 8px;
+}
+.icon43{
+	padding-left:7px;
+}
+.i1{
+	animation:mj3 2s infinite;
+}
+.i2{
+	animation:mj4 2s infinite;
+}
+.fab:hover, .fas:hover{
+	cursor:pointer;
+	transition:all 2s;
+	background-color:#febb2c;
+	color:#333;
+	font-size:20px;
+	animation:none;
+}
+.commonBox1{
+	cursor:pointer;
+	animation:mj5 2s infinite;
+}
+.aboutButton:hover{
+	background-color:#000;
+	color:#febb2c;
+	border-radius:3px;
+	transition:all 2s ;
+}
